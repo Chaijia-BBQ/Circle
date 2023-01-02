@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->Circumference_radioButton->setChecked(1);
     ui->Circumference_radioButton_2->setChecked(1);
     ui->label_bilibili->setText("<a href='https://space.bilibili.com/1619813949?spm_id_from=333.1007.0.0'>B站：荧光606的个人空间_哔哩哔哩_bilibili</a>");
+    ui->label_github_project->setText("<a href='https://github.com/Chaijia-BBQ/Circle'>Github项目主页：Chaijia_BBQ/Circle</a>");
+    ui->label_my_github->setText("<a href='https://github.com/Chaijia-BBQ'>我的Github主页：github.com/Chaijia-BBQ</a>");
 
     this->showMaximized();
 }

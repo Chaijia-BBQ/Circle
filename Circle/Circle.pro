@@ -35,7 +35,6 @@ RESOURCES += \
 
 DISTFILES += \
     Icon/Circle_icon.ico \
-    Icon/Circle_icon.png \
     android_sources/AndroidManifest.xml
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android_sources
